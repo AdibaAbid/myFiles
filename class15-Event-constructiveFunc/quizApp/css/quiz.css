@@ -1,0 +1,41 @@
+body {
+    background-color: #f5f8ff;
+}
+
+.text-white {
+    background-color: #1aa071;
+}
+
+h1 {
+    padding: 10px;
+}
+
+.text-info {
+    width: 100%;
+    display: block;
+}
+
+span {
+    padding: 5px;
+}
+
+input[type=radio] {
+    cursor: pointer;
+}
+
+h3 {
+    padding-top: 5px;
+    font-size: 1.5rem;
+}
+
+.result {
+    margin-bottom: 5rem;
+}
+
+.submit-answer {
+    margin-bottom: 50px;
+}
+
+.modal-content {
+    height: 60vh;
+}

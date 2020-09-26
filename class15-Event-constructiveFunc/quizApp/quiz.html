@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+
+<body>
+    <h1 class="text-white text-center display-4 font-weight-bold">Welcome To Quiz App</h1>
+    <div class="container">
+
+        <ol id="questions" class="list-group">
+
+        </ol>
+        <div class="text-center submit-answer">
+            <button class="btn btn-success btn-lg " data-target="#result-show" data-toggle="modal" onclick="onSubmit()">Submit Answers</button>
+        </div>
+
+
+        <!-- PopUp-Modal -->
+        <div class="modal fade" id="result-show">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content bg-secondar">
+                    <div class="modal-header text-center">
+                        <h3 class=" text-info display-4 font-weight-bold">Score Box</h3>
+                    </div>
+                    <div class="modal-body text-center">
+                        <h2 class="result"><span class="text-warning"></span></h2>
+                        <button type="button" class="btn btn-lg btn-info" data-dismiss="modal">Close</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/quiz.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
