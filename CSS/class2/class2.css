@@ -1,0 +1,59 @@
+.border {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* hieght and width:  are not apply in inline element; */
+
+
+/* display block can take height and width */
+
+.class1 {
+    display: inline;
+    /* display: inline-block; */
+    margin: 6px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: coral;
+}
+
+li {
+    list-style-type: upper-roman;
+    /* list-style-image: url(File path); cannot control width and height */
+}
+
+
+/* static effect others */
+
+
+/* position is use for fixed the element  does not effect other elemnt*/
+
+
+/* Position: absolute with left and right atttribute is used for without disturbing other elemnent. it makes another box absolute box. */
+
+
+/*its apply on a child div position relative does'nt effect other elemnt */
+
+.b {
+    position: absolute;
+    border: 1px solid coral;
+}
+
+.andorini {
+    border: 1px solid cyan;
+    position: relative;
+    left: 5px;
+    top: 10px;
+}
+
+
+/* units 
+1. px
+%= percent
+em=emphameral found nearest pixel and make it equal to 1em
+vw= view width automatically resize throught around width inside the div
+vh= same as width */
+
+qu

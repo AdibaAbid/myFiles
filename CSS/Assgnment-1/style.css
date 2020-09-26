@@ -1,0 +1,613 @@
+.full {
+    background-color: #fff;
+    color: black;
+    margin-left: -7px;
+    margin-right: -8px;
+}
+
+.centered {
+    margin-left: 85px;
+    margin-right: 85px;
+}
+
+@font-face {
+    font-family: "Spartan";
+    src: url("assets/fonts/static/Spartan-ExtraLight.ttf");
+}
+
+body {
+    font-family: Spartan, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    background-color: #134054;
+    color: #fff;
+}
+
+strong {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+sup {
+    font-size: 8pt;
+}
+
+a {
+    color: #37a000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #37a000;
+    text-decoration: underline;
+}
+
+.top-right button {
+    font-size: 13px;
+    line-height: 13px;
+    margin-top: 8px;
+    margin-left: 20px;
+    padding: 6px 16px 6px 14px;
+    margin-bottom: 13px;
+    color: #fff;
+    background-color: #37a000;
+    border-color: transparent;
+}
+
+.btn {
+    padding-left: 87px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+button {
+    margin-top: 25px;
+    padding: 11px 28px;
+    font-size: 14px;
+    line-height: 14px;
+    border-radius: 2px;
+    font-weight: 700;
+    text-align: center;
+    border: 2px solid transparent;
+    color: #fff;
+    background-color: #37a000;
+    margin-right: 10px;
+}
+
+.demo {
+    padding: 11px 28px;
+    font-size: 14px;
+    line-height: 14px;
+    border-radius: 2px;
+    font-weight: 700;
+    text-align: center;
+    border: 2px solid transparent;
+    color: #37a000;
+    background-color: #fff;
+    box-shadow: 0px 0px 2px 2px #cababa94;
+}
+
+
+/* Header */
+
+.center {
+    margin-left: 77px;
+    margin-right: 121px;
+}
+
+header {
+    margin-top: 10px;
+}
+
+input {
+    border: 1px solid #1d4354;
+    border-radius: 2px;
+    background-color: #2b5468;
+    color: #fff;
+    padding: 10px 19px;
+    height: 40px;
+    width: 330px;
+}
+
+input::placeholder {
+    color: #d7d9da;
+}
+
+.head-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-right {
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    width: 100%;
+}
+
+.top-right ul {
+    width: 50%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.top-left {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    height: 50px;
+}
+
+.head-nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1px solid #2b5468;
+    border-top: 1px solid #2b5468;
+    padding-left: 94px;
+    padding-right: 119px;
+}
+
+
+/* Main Heading */
+
+@font-face {
+    font-family: "Canela";
+    src: url("assets/fonts/Canela-Bold/Canela-Bold.ttf");
+}
+
+.main-heading {
+    background-color: #134054;
+    background-image: url("assets/images/bk.png");
+    background-repeat: no-repeat;
+    height: 65vh;
+    background-position: right;
+    background-size: contain;
+}
+
+.demo-main-heading {
+    padding: 11px 28px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    border-radius: 2px;
+    text-align: center;
+    border: 2px solid transparent;
+    color: #37a000;
+    background-color: #fff;
+}
+
+.sub-heading {
+    padding: 0;
+    padding-left: 87px;
+}
+
+h1 {
+    font-family: Canela;
+    font-size: 46px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 90px;
+    padding-bottom: 0px;
+}
+
+h1 a {
+    color: #6fda44;
+    text-decoration: none;
+}
+
+.heading p {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+    padding-left: 87px;
+}
+
+
+/* Logos */
+
+.logos {
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+
+.para {
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 900;
+}
+
+.logos-banner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logos-banner img {
+    height: 75px;
+}
+
+
+/* Card Section */
+
+h2 {
+    font-size: 36px;
+    font-family: Canela;
+    text-align: center;
+    color: #1d4354;
+    font-weight: 400;
+    padding-top: 8px;
+    letter-spacing: 1px;
+}
+
+
+/* Card Section */
+
+.card {
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px 4px #c5bfbf5c;
+}
+
+.card p {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.card-row1 img {
+    height: 130px;
+    vertical-align: bottom;
+    margin-bottom: 25px;
+}
+
+.card-row2 img {
+    height: 130px;
+    margin-bottom: 10px;
+}
+
+.card-row1,
+.card-row2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.para-sm {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+/* Portfolio Section */
+
+.portfolio-box {
+    margin-top: 30px;
+    width: 85%;
+    margin-bottom: 50px;
+}
+
+.portfolio-box-inverse {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.portfolio-box-inverse,
+.portfolio-box p {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+    color: black;
+    font-family: Spartan;
+}
+
+.portfolio-box-inverse,
+.portfolio-box a {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.portfolio-box h2 {
+    text-align: start;
+}
+
+.portfolio-box-inverse h2 {
+    text-align: start;
+}
+
+.portfolio-bg-inverse {
+    width: 590px;
+}
+
+.portfolio-detail {
+    text-align: start;
+    width: 50%;
+}
+
+.portfolio-box,
+.quality-box,
+.nasdaq-grade,
+.ge-godaddy-box,
+.list-box,
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-box-inverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+/* Quality Section */
+
+@font-face {
+    font-family: spartan-bold;
+    src: url("assets/fonts/static/Spartan-Bold.ttf");
+}
+
+.quality-details {
+    width: 250px;
+}
+
+.quality-box {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.quality-details h3 {
+    font-family: spartan-bold;
+    font-size: 16px;
+    text-align: center;
+    color: #222;
+}
+
+.quality-details p {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.quality-details,
+.nasdaq-content,
+.nasdaq-grade,
+.inside-box {
+    text-align: center;
+}
+
+
+/* Connect Section */
+
+.connect-para {
+    font-size: 22px;
+    line-height: 30px;
+    font-family: spartan-bold;
+    color: #1d4354;
+    text-align: center;
+}
+
+.connect-list p {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #222;
+}
+
+.con-box {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    width: 135px;
+    border-right: 1px solid #e0e0e0;
+    padding-top: 10px;
+}
+
+.con-box a {
+    text-align: center;
+}
+
+.connect-detail {
+    display: flex;
+    justify-content: center;
+}
+
+.connect-detail img {
+    vertical-align: middle;
+    padding-left: 50px;
+}
+
+.connect-box {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 140px;
+    box-shadow: 0px 0px 5px 2px #c1adad;
+}
+
+
+/* Rating Section */
+
+.rating {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.rating img {
+    vertical-align: bottom;
+}
+
+
+/* Nasdaq Section */
+
+.nasdaq {
+    margin-bottom: 30px;
+}
+
+.nasdaq-content {
+    padding-top: 80px;
+    background-color: #1d4354;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.inside-box2 h4,
+.inside-box h4,
+.nasdaq-content h4 {
+    font-size: 24px;
+    font-family: spartan-bold;
+}
+
+.nasdaq-content a {
+    color: #fff;
+    font-weight: 900;
+}
+
+.nasdaq-grade {
+    text-align: center;
+    background-color: #1d4354;
+    padding-bottom: 80px;
+    color: #37a000;
+    font-family: spartan-bold;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nasdaq-grade h3 {
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+.nasdaq-grade p {
+    color: #fff;
+}
+
+
+/* GE-Godaddy Section */
+
+.inside-box {
+    margin-right: 30px;
+    padding: 30px 20px 55px 20px;
+    color: #fff;
+    background-color: #f3756c;
+    font-weight: 600;
+}
+
+.inside-box2 {
+    text-align: center;
+    font-weight: 600;
+    padding: 30px 20px 55px 20px;
+    color: #fff;
+    background-color: #e6a01e;
+}
+
+.ge-godaddy-box a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.special-talent-content h2 {
+    color: #fff;
+}
+
+
+/* Skills Section */
+
+.trending-skills h5,
+.Skills h5 {
+    font-size: 18px;
+    font-family: spartan-bold;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.list a {
+    color: #222;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.list a:hover {
+    color: #37a000;
+    text-decoration: underline;
+}
+
+.list ul {
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+    line-height: 30px;
+}
+
+.center-btn {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+/* Special-Talent Section  */
+
+.special-talent-content {
+    background-color: #2b5468;
+    margin-left: -7px;
+    margin-right: -7px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.special-talent-content .btn {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+
+/* Footer */
+
+.footer-center {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+footer h5 {
+    text-align: center;
+    font-size: 11px;
+    line-height: 20px;
+    border-bottom: 1px solid #96868680;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.fo-list {
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.fo-list a {
+    color: #fff;
+}
+
+.fo-list li {
+    list-style: none;
+    line-height: 25px;
+}
+
+.copywrite h5 {
+    border-top: 1px solid #96868680;
+    padding-top: 20px;
+    border-bottom: 0;
+}
