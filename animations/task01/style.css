@@ -1,0 +1,347 @@
+body {
+    margin: 0;
+    background-color: #d7e8e8;
+    /* text-align: center; */
+    /* margin-top: 45px; */
+}
+
+h1 {
+    position: absolute;
+    left: 33%;
+    font-size: 42px;
+    top: 20px;
+    color: currentcolor;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.cloud-sun {
+    position: relative;
+    top: 50px;
+    left: -33px;
+    display: inline-block;
+}
+
+img {
+    height: 200px;
+}
+
+.rain {
+    position: relative;
+    top: -79px;
+    left: 12px;
+    animation: rain 3s linear infinite;
+}
+
+.rain div {
+    background-color: #8b8585;
+    border-radius: 100% 0% 50% 50% / 63% 0% 100% 37%;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 44%;
+    transform: rotate(-28deg);
+    bottom: -57px;
+    animation: rain 3s linear infinite;
+    animation-delay: .5s;
+}
+
+@keyframes rain {
+    0% {
+        background-color: #0cf;
+        opacity: 1;
+    }
+    100% {
+        background-color: #8a8484;
+        opacity: 0.8;
+    }
+}
+
+.rain :nth-child(2) {
+    left: 50%;
+    transform: rotate(-28deg);
+    bottom: -21px;
+    animation-delay: 2s;
+}
+
+.rain :nth-child(3) {
+    left: 19%;
+    height: 30px;
+    width: 30px;
+    transform: rotate(-28deg);
+    bottom: -50px;
+    animation-delay: 1.5s;
+}
+
+.rain :nth-child(4) {
+    left: 35%;
+    height: 30px;
+    width: 30px;
+    transform: rotate(-28deg);
+    bottom: -33px;
+    animation-delay: 1s;
+}
+
+
+/* Thunder Cloud  */
+
+.thunder {
+    position: relative;
+    top: 50px;
+    left: 43px;
+}
+
+.bolt {
+    position: absolute;
+    top: 42%;
+    left: 27%;
+    font-size: 58px;
+    color: #8b8585;
+    animation-name: thunder;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-delay: 1s;
+}
+
+@keyframes thunder {
+    0% {
+        color: #0cf;
+    }
+    50% {
+        color: #8a8484;
+    }
+}
+
+.fas {
+    background: #d7e8e8;
+    padding: 7px;
+    float: right;
+}
+
+.first {
+    animation: thunder 2s linear infinite;
+    font-size: 39px;
+    color: #545454;
+}
+
+
+/* cloud fade in Out */
+
+.cloudFadein-out {
+    position: relative;
+    top: 50px;
+    display: inline-block;
+    left: 102px;
+}
+
+.fade {
+    display: inline-block;
+    z-index: -1;
+    transform: translateX(120px);
+    color: darkgrey;
+    bottom: -10px;
+    position: relative;
+    /* animation-name: fade;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-delay: 1s; */
+    animation: fade 8s linear infinite;
+}
+
+@keyframes fade {
+    0% {
+        transform: translateX(130px);
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        transform: translateX(-63px);
+        opacity: 0;
+    }
+}
+
+.cloud00 {
+    position: relative;
+    top: -90px;
+}
+
+.cloudFade {
+    font-weight: 900;
+    font-size: 68px;
+    background: none;
+    animation-duration: 0.5s;
+}
+
+
+/* SnowFlakes */
+
+.snow {
+    margin: 0;
+    margin-top: 28px;
+    /* margin-right: 20px; */
+    position: relative;
+    right: 95px;
+}
+
+.flakes {
+    position: relative;
+    top: -29%;
+    left: -35px;
+}
+
+.flakes :nth-child(1) {
+    font-size: 30px;
+    top: 29px;
+    position: relative;
+    left: -79px;
+    color: #545454;
+    animation: spin 14s linear infinite;
+    background: none;
+}
+
+.flakes :nth-child(2) {
+    font-size: 35px;
+    top: 29px;
+    position: relative;
+    color: #545454;
+    animation: spin 14s linear infinite;
+    background: none;
+}
+
+.flakes :nth-child(3) {
+    font-size: 22px;
+    left: 42px;
+    position: relative;
+    color: #8a8484;
+    animation: spin 14s linear infinite reverse;
+    background: none;
+}
+
+.flakes :nth-child(4) {
+    font-size: 16px;
+    left: 42px;
+    position: relative;
+    top: 0px;
+    color: #8a8484;
+    animation: spin 14s linear infinite reverse;
+    background: none;
+}
+
+
+/* Cloud-Sun */
+
+.cloud-sun1 {
+    position: relative;
+    right: -186px;
+    top: 30px;
+}
+
+
+/* sun */
+
+.sun {
+    position: relative;
+    width: 53px;
+    height: 53px;
+    margin: -1.25em;
+    background: #d7e8e8;
+    border-radius: 50%;
+    box-shadow: 0 0 0 7px black;
+    top: 111px;
+    right: -36px;
+    animation: spin 12s infinite linear;
+}
+
+.sun01 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: -1.25em;
+    background: #d7e8e8;
+    border-radius: 50%;
+    box-shadow: 0 0 0 7px black;
+    top: 81px;
+    right: -170px;
+    z-index: -1;
+    animation: spin 12s infinite linear;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.rays ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.rays ul li {
+    border-radius: 5px;
+    list-style: none;
+    margin: 5px;
+    width: 8px;
+    height: 31px;
+    background-color: black;
+}
+
+.rays ul :nth-child(1) {
+    transform: rotate(120deg);
+    position: relative;
+    left: 65px;
+    bottom: -32px;
+}
+
+.rays ul :nth-child(2) {
+    position: relative;
+    left: 62px;
+    top: -56px;
+    transform: rotate(60deg);
+}
+
+.rays ul :nth-child(3) {
+    transform: rotateY(170deg);
+    position: relative;
+    left: 18px;
+    top: -120px;
+}
+
+.rays ul :nth-child(4) {
+    transform: rotate(60deg);
+    position: relative;
+    left: -30px;
+    top: -76px;
+}
+
+.rays ul :nth-child(5) {
+    transform: rotate(180deg);
+    position: relative;
+    left: 18px;
+    top: -84px;
+}
+
+.rays ul :nth-child(6) {
+    transform: rotate(120deg);
+    position: relative;
+    left: -28px;
+    top: -201px;
+}
+
+
+/* .rays ul :nth-child(1) {
+    transform: rotate(90deg);
+    position: relative;
+    left: 68px;
+} */

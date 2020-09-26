@@ -1,0 +1,30 @@
+* {
+    font-family: 'Courgette', cursive;
+}
+
+button:hover,
+button {
+    transition: .5s !important;
+}
+
+nav .hidden {
+    transition: 1s;
+}
+
+.swal-text {
+    font-size: 25px;
+}
+
+.remaining-balance {
+    position: fixed;
+    top: 163px;
+    right: 0px;
+    width: 25%;
+}
+
+@media screen and (min-width: 786px) {
+    .remaining-balance {
+        width: 30%;
+        top: 116px;
+    }
+}

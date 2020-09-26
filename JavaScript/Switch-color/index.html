@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <title>Switch button</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>whatthefork.is <span>a closure</span></h1>
+            <div>
+                <button onclick="switchColorDark()" id='night'><i class="fas fa-moon"></i></button>
+                <button onclick="switchColorLight()" class='check-day'><i class="fas fa-sun"></i></button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <p>Closures are confusing because they are an “invisible” concept.</p>
+        <p>When you use an object, a variable, or a function, you do this intentionally. You think: “I’m gonna need a variable here,” and add it to your code.</p>
+        <p>Closures are different. By the time most people approach closures, they have already used them unknowingly many times — and it is likely that this is true for yourself, too. So learning closures is less about understanding a new concept and more
+            about recognizing something you have already been doing for a while.</p>
+        <h2>tl;dr</h2>
+        <p>You have a closure when a function accesses variables defined outside of it.</p>
+        <p>For example, this code snippet contains a closure:</p>
+        <h2 class="code">***Code***</h2>
+        <p>
+            Notice how user => user.startsWith(query) is itself a function. It uses the query variable. But the query variable is defined outside of that function. That’s a closure.
+        </p>
+        <hr>
+        <p><strong>You can stop reading here, if you want.</strong>The rest of this article approaches closures in a different way. Instead of explaining what a closure is, it will walk you through the process of discovering closures — like the first programmers
+            did in the 1960s.</p>
+        <hr>
+        <h2>Step 1: Functions Can Access Outside Variables</h2>
+        <p>To understand closures, we need to be somewhat familiar with variables and functions. In this example, we declare the food variable inside the eat function:</p>
+        <h2 class="code">***Code***</h2>
+        <p>But what if we wanted to later change the food variable outside of the eat function? To do this, we can move the food variable itself out of our function into the top level:</p>
+        <h2 class="code">***Code***</h2>
+        <p>This lets us change the food “from the outside” any time that we want to:</p>
+        <h2 class="code">***Code***</h2>
+        <p>In other words, the food variable is no longer local to our eat function, but our eat function nevertheless has no trouble accessing it. Functions can access variables outside of them. Stop for a second and make sure that you have no problem with
+            this idea. Once it has settled comfortably in your brain, move to the second step.</p>
+        <hr>
+        <h2>Step 2: Wrapping Code in a Function Call</h2>
+        <p>Let’s say we have some code:</p>
+        <h2 class="code">***Code***</h2>
+        <p>It doesn’t matter what that code does. But let’s say that we want to run it twice.</p>
+        <p>One way to do it would be to copy and paste it:</p>
+        <h2 class="code">***Code***</h2>
+        <p>Another way to do it would be to use a loop:</p>
+        <h2 class="code">***Code***</h2>
+        <p>The third way, which we’re particularly interested in today, is to wrap it in a function:</p>
+        <h2 class="code">***Code***</h2>
+        <p>In other words, if we take some piece of code, “wrap” that code in a function, and then call that function exactly once, we haven’t changed what that code is doing. There are some exceptions to this rule which we will ignore, but generally saying
+            this should make sense. Sit on this idea until your brain feels comfortable with it. </p>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

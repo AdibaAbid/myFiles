@@ -1,0 +1,68 @@
+body {
+    /* font-family: sans-serif; */
+    font-size: 18px;
+    font-family: 'Courgette', cursive;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+}
+
+main {
+    width: 60%;
+    margin-left: 13rem;
+    margin-right: 5rem;
+    padding: 6rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+nav div {
+    display: inline-block;
+    padding-top: 12px;
+}
+
+hr {
+    border: 1px solid lightgrey;
+}
+
+span {
+    color: rgb(0 173 255)
+}
+
+.code {
+    color: rgb(117, 109, 109);
+    font-size: 30px;
+}
+
+.check-day {
+    display: none;
+}
+
+
+/* .check-night {
+    display: block;
+} */

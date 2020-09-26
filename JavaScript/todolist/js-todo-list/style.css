@@ -1,0 +1,15 @@
+body {
+    background-image: url('images/marjanblan-_kUxT8WkoeY-unsplash.jpg');
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    padding: 8px 10px;
+    background-color: #fff;
+}

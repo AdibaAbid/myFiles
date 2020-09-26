@@ -1,0 +1,99 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header .container{
+    max-width: 1100px;
+   margin: 0 auto;
+}
+.nav-bar{
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.nav-bar nav ul li{
+    list-style: none;
+}
+.nav-bar ul li a{
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #555555;
+ 
+}
+.hero-section{
+    height: 80vh;
+    background-color: #222222e6;
+    background-image: url('images/Background.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-section .hero-content h1{
+  
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif ;
+}
+.hero-section button{
+    background-color: #7cc576;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+    border-radius: 255px;
+    border: none;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 20px;
+}
+.hero-content p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+.services{
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+.heading-services h1{
+    margin: 20px 0;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif ;
+}
+.top-services{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.top-services h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: #222;
+    font-family: 'Montserrat', sans-serif ;
+}
+.top-services .option{
+  padding: 40px;
+}
+.top-services p{
+    font-size: 13px;
+}
